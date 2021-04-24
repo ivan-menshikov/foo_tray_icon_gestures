@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{13002632-89bd-4fd8-af72-7a026d3eb41f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="src\Component.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Preferences.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WindowsHook.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrayIconGestures.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FreeToolTip.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="src\Component.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Preferences.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowsHook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InitQuit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrayIconGestures.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FreeToolTip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
